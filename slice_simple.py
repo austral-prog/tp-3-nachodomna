@@ -1,8 +1,12 @@
 def slice_simple():
     texto = "Awesome"
-    # Código a implementar, se debe utilizar la variable 'texto' para resolver el ejercicio.
-    # No se debe modificar la definición de la función, ni ingresar otro valor mediante input.
+    nombre = input("nombre")
+    print(nombre)
+    print()
+    nombre = nombre.lower()
 
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
+    print(f"Contiene a: {'a' in nombre}")
+    print(f"Contiene a: {'e' in nombre}")
+    print(f"Contiene a: {'i' in nombre}")
+    print(f"Contiene a: {'o' in nombre}")
+    print(f"Contiene a: {'u' in nombre}")
